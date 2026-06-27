@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a problem with Realistic Generators
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! Fill in what you can — even a partial report helps.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Build a boiler multiblock...
+        2. Pipe in water + fuel...
+        3. ...
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Minecraft / NeoForge / Realistic Generators / modpack
+      placeholder: "MC 1.21.1, NeoForge 21.1.x, RG 1.0.0, ATM10 4.x"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / crash report
+      description: Paste relevant logs or a link (e.g. mclo.gs). Optional but very helpful.
+      render: text

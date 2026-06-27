@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,part=hp": {
+      "model": "realisticgenerators:block/turbine_rotor_hp"
+    },
+    "facing=east,part=hp": {
+      "model": "realisticgenerators:block/turbine_rotor_hp",
+      "y": 90
+    },
+    "facing=south,part=hp": {
+      "model": "realisticgenerators:block/turbine_rotor_hp",
+      "y": 180
+    },
+    "facing=west,part=hp": {
+      "model": "realisticgenerators:block/turbine_rotor_hp",
+      "y": 270
+    },
+    "facing=north,part=ip": {
+      "model": "realisticgenerators:block/turbine_rotor_ip"
+    },
+    "facing=east,part=ip": {
+      "model": "realisticgenerators:block/turbine_rotor_ip",
+      "y": 90
+    },
+    "facing=south,part=ip": {
+      "model": "realisticgenerators:block/turbine_rotor_ip",
+      "y": 180
+    },
+    "facing=west,part=ip": {
+      "model": "realisticgenerators:block/turbine_rotor_ip",
+      "y": 270
+    },
+    "facing=north,part=lp": {
+      "model": "realisticgenerators:block/turbine_rotor_lp"
+    },
+    "facing=east,part=lp": {
+      "model": "realisticgenerators:block/turbine_rotor_lp",
+      "y": 90
+    },
+    "facing=south,part=lp": {
+      "model": "realisticgenerators:block/turbine_rotor_lp",
+      "y": 180
+    },
+    "facing=west,part=lp": {
+      "model": "realisticgenerators:block/turbine_rotor_lp",
+      "y": 270
+    }
+  }
+}
