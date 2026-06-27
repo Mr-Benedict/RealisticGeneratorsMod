@@ -1,0 +1,25 @@
+name: Feature / suggestion
+description: Suggest an idea or improvement for Realistic Generators
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the idea! Keep it focused — one suggestion per issue.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature or change.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: What are you trying to do that's awkward or impossible today? (optional)
+  - type: input
+    id: versions
+    attributes:
+      label: Versions / modpack
+      placeholder: "MC 1.21.1, NeoForge 21.1.x, RG 1.0.0, ATM10"
